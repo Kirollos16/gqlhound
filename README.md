@@ -10,7 +10,7 @@
 
 **A powerful static analysis tool to hunt down GraphQL operations hidden in JavaScript files**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Examples](#-examples) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Examples](#-examples) • [Contributing](#-Contributing)
 
 </div>
 
@@ -36,21 +36,21 @@ GQLHound is a specialized reconnaissance tool designed for bug bounty hunters, p
 ## ✨ Features
 
 ### Core Capabilities
-- ✅ Extract GraphQL queries, mutations, fragments, and subscriptions
-- ✅ Parse variables with their types (`$id: ID!`, `$name: String`)
-- ✅ Handle minified and obfuscated JavaScript
-- ✅ Support multiple GraphQL declaration patterns (gql``, graphql(), etc.)
-- ✅ Scan HTML pages and automatically analyze all JavaScript files
-- ✅ Deduplicate identical queries across multiple files
-- ✅ Validate GraphQL syntax to reduce false positives
+- Extract GraphQL queries, mutations, fragments, and subscriptions
+- Parse variables with their types (`$id: ID!`, `$name: String`)
+- Handle minified and obfuscated JavaScript
+- Support multiple GraphQL declaration patterns (gql``, graphql(), etc.)
+- Scan HTML pages and automatically analyze all JavaScript files
+- Deduplicate identical queries across multiple files
+- Validate GraphQL syntax to reduce false positives
 
 ### Reconnaissance Features
-- 🔍 Custom User-Agent support
-- 🔍 Custom HTTP headers (Authorization, API keys, etc.)
-- 🔍 Configurable request delays (rate limiting)
-- 🔍 Adjustable timeout settings
-- 🔍 Bulk URL scanning from file
-- 🔍 Progress bar for long scans
+- Custom User-Agent support
+- Custom HTTP headers (Authorization, API keys, etc.)
+- Configurable request delays (rate limiting)
+- Adjustable timeout settings
+- Bulk URL scanning from file
+- Progress bar for long scans
 
 ### Output Options
 - 🎨 Colorized terminal output
@@ -190,7 +190,7 @@ Variables:
   $userId: ID!
   $limit: Int
 
-```graphql
+graphql
 query GetUserProfile($userId: ID!, $limit: Int) {
   user(id: $userId) {
     id
@@ -203,11 +203,11 @@ query GetUserProfile($userId: ID!, $limit: Int) {
     }
   }
 }
-```
 --------------------------------------------------------------------------------
 
 [*] Scan complete!
 ```
+
 
 ---
 
@@ -263,10 +263,6 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## ⚠️ Disclaimer
@@ -286,10 +282,11 @@ This tool is intended for legal security research and authorized testing only. U
 ## 📬 Contact
 
 - **Author**: Arion
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Issues**: [Report a bug](https://github.com/yourusername/gqlhound/issues)
+- **GitHub**: [@yourusername](https://github.com/Kirollos16)
+- **Issues**: [Report a bug](https://github.com/Kirollos16/gqlhound/issues)
 
 ---
+
 
 <div align="center">
 
