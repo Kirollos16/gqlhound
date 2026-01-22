@@ -263,7 +263,6 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
----
 
 ## ⚠️ Disclaimer
 
@@ -282,7 +281,7 @@ This tool is intended for legal security research and authorized testing only. U
 ## 📬 Contact
 
 - **Author**: Arion
-- **GitHub**: [@yourusername](https://github.com/Kirollos16)
+- **GitHub**: [@Kirollos16](https://github.com/Kirollos16)
 - **Issues**: [Report a bug](https://github.com/Kirollos16/gqlhound/issues)
 
 ---
