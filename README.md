@@ -291,6 +291,4 @@ This tool is intended for legal security research and authorized testing only. U
 
 **If you found this tool helpful, please give it a ⭐️!**
 
-Made with ⬢ by security researchers, for security researchers
-
 </div>
